@@ -1,0 +1,408 @@
+body{
+    font-family: 'Montserrat', 'Source Sans Pro',sans-serif;
+}
+
+
+div{
+    border: 0px solid green;
+    padding:0px;
+}
+
+.shnav{
+    display: flex;
+    margin:0px;
+    padding:5px;
+    justify-content:space-between;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color: white;
+    
+
+}
+
+.shnav ul{
+    list-style-type: none;
+    display: flex;
+    padding:0px
+}
+
+.shnav a{
+    display: flex;
+    text-decoration: none;
+    color:  gray;
+    padding-left:10px;
+    padding-right:10px;  
+}
+
+.home{
+    margin-left: 50px;
+}
+
+.sign{
+    margin-right: 50px;
+}
+
+.logo{
+    
+    align-items: center;
+    margin: 0px;
+    
+}
+
+
+.shnav a:hover{
+    color:#FF9900;
+    font-size: 16px;
+    border-top: 1.5px solid #FF9900; 
+}
+
+a:active{
+    color:
+}
+
+.button:hover{
+    color: #FF9900;
+    background-color:white;
+}
+
+.heading{
+    margin-top: 55px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 10%;
+    padding-right:40%;
+    min-width: 560px;
+    background-image: url(images/main2.jpg);
+    background-image:cover;
+    background-color: black;
+    background-position:center;
+    background-repeat: no-repeat;
+    color:aliceblue;
+}
+
+.heading h1{
+    padding-top:0px;
+    padding-bottom: 5px;
+    margin:0px;
+    
+    
+}
+
+.heading p{
+    margin:0px;
+    padding-bottom: 30px;
+    
+}
+
+.button{
+
+    padding: 5px 7px;
+    text-decoration: none;
+    color: white;
+    background-color: #FF9900;
+    
+}
+
+.grandma{
+    margin:10px 20%;
+    flex-wrap: wrap;
+}
+
+
+.shparent{
+    display: flex;
+
+    padding:10px;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+    
+}
+
+.box{
+    flex: 1;
+    min-width: 280px;
+    margin: 10px;
+
+}
+
+.box img{
+    width:100%;
+    align-items: center;
+}
+
+
+.paragraph{
+    text-align: center;
+    word-wrap: break-word;
+    margin:0px;
+    padding: 10px 5px;
+    
+}
+
+.paragraph p{
+    margin:5px 0px 20px 0px;
+    font-size: 12px;
+}
+
+.paragraph h4{
+    margin:5px;
+}
+
+.box h4{
+    border-bottom: 1px solid grey;
+    padding: 8px;
+    margin: 0px;
+}
+.box p{
+    margin:5px 3px;
+    font-size: 12px;
+    
+}
+
+
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    border-top: 2px solid #FF9900; 
+    padding:10px 10%;
+    background-color: lightgray;
+    
+    
+
+
+    
+}
+
+.footer ul{
+   
+
+    list-style-type: none;
+    font-size: 12px;
+    flex:1;
+    flex-wrap: wrap;
+     min-width: 100px;
+
+}
+
+.footer li{
+
+    flex-wrap: wrap;
+     min-width: 200px;
+
+}
+
+.footer a{
+    text-decoration: none;
+    color:#FF9900;
+    flex-wrap: wrap;
+     min-width: 200px;
+    
+}
+
+.footer a:hover{
+    color:grey;
+    font-size: 14px;
+    
+}
+
+
+
+.join{
+
+    background-color:#FF9900;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ 
+    
+}
+
+.join input{
+    display: block;
+    width:100%;
+    height:35px;
+    margin-bottom: 20px;
+}
+
+.join h1, .join h2{
+      text-align: center;
+      color: white;
+      
+}
+
+form{
+    color: white;
+    
+}
+
+.tkbutton:hover {
+  background-color: darkgray;
+    color:#FF9900;
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.price{
+    display: flex; 
+    padding-left: 35%;
+    padding-right:30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pricecommit{
+    padding-right: 50px;
+}
+
+
+.direction{
+    display: flex;
+    padding-left: 20%;
+    padding-right:20%;  
+    margin-bottom: 100px;
+}
+
+.address{
+    padding-left:5%;
+}
+
+.tkbutton{
+    margin-top: 20px;
+}
+
+
+body {
+	font-family: 'Montserrat', 
+	'Source Sans Pro',sans-serif;
+	color: #ff9900;
+}
+
+ul {
+	list-style-type: none;
+}
+a {
+ 	padding: 0%;
+ 	display: flex-start;
+ }
+ p {
+ 	text-transform: capitalize;
+ }
+
+.navparent {
+ 	color: #fff;
+	background-color: #ff9900;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+ }
+.nav ul {
+	padding: 0% 10% 0% 20%;
+	margin: 0% 10% 0% 10%;
+	display: flex;
+	justify-content: space-around;
+}
+.nav a {
+	padding: 0%;
+	margin: 20%;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	text-transform: none;
+	padding: 0%;
+	width: 900px;
+}
+.parent {
+	display: flex;
+}
+	
+.side {
+	display: flex;
+	height: all;
+	flex-wrap: wrap;
+	flex:1;
+}
+
+.side ul {
+	justify-content: space-around;
+	letter-spacing: 1%;
+	margin: 10% 0% 10% 0%;
+	text-transform: capitalize;
+}
+.images {
+	display: flex;
+	flex: 3;
+	flex-wrap: wrap; 
+}
+
+.images > div {
+	width: 30%;
+	padding: 20px;
+}
+
+h3 {
+	text-align: center;
+	text-transform: capitalize;
+}
+img {
+	width: 100%;
+}
+
+.right > div {
+width: 100%;
+	padding: 20px;
+}
+.right {
+	display: flex;
+	flex: 2;
+}
+
+.protein {
+	
+}
+.supplements {
+	margin: 2px;
+}
+
+.poolside {
+	height: 50%;
+	width: 100%;
+}
+
+.about {
+background-color: grey;
+}
+
+.side li{
+    padding:10px;
+}
+.side a{
+    text-decoration: none;
+    color:  gray;
+    
+}
+
+.side a:hover{
+     color:#FF9900;
+    font-size: 16px;
+   
+    
+}
+
+
+.images a{
+    text-decoration: none;
+    color:  gray;
+}
